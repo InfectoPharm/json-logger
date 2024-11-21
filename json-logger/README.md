@@ -1,16 +1,22 @@
-# Json-logger Extension
+# JSON Logger
+##  Release notes
 
-## 2.1.0 version - Release notes
+### 2.2.3 version - Release notes
+
+* Updated to support Java 17
+* Upgraded dependencies to fix known vulnerabilities
+
+### 2.1.0 version - Release notes
 
 * Minimum supported mule runtime 4.3
 * Upgraded dependencies to fix known vulnerabilities
 
-## 2.0.1 version - Release notes
+### 2.0.1 version - Release notes
 
 Bug fixes:
 * Added support for large payloads
 
-## 2.0.0 version - Release notes
+### 2.0.0 version - Release notes
 
 New features:
 * External Destinations
@@ -21,7 +27,7 @@ Improvements:
 
 More details in the coming blog post (stay tuned!)
 
-## 1.1.0 version - Release notes
+### 1.1.0 version - Release notes
 
 New features:
 * Scoped loggers to capture "scope bound elapsed time". Great for performance tracking of specific components (e.g. outbound calls)
@@ -33,4 +39,3 @@ Improvements:
 * Code optimizations
 * Minimized dependency footprint (down from ~23MB to ~13MB)
 * Optimized parsing of TypedValue content fields
-
